@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 75px 100px 75px 100px;
+    padding: 75px 150px 75px 150px;
    
 }
 
@@ -71,8 +71,7 @@ body {
 }
 
 .full-band-picture {
-   height: 200px;
-   width: 400px;
+    height: 400px;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -102,12 +101,13 @@ a {
 .section-2-images {
     display: flex;
     justify-content: center;
-    gap: 45px;
+    gap: 90px;
 }
 
 .section-2-images figure {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 150px;
     gap: 10px;
     font-size: 15px;
@@ -115,8 +115,9 @@ a {
 }
 
 .section-2-images img {
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    width: 175px;
+    border: 5px solid #E5E7EB;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
